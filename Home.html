@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <LINK href="StyleSae.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-wtbpWd2N+NCu+gYz5l5zU0KpkbNgB2Dx5RLOxNlHWSS+lR5ST2ZZ6eOQ1RS8U2da" crossorigin="anonymous">
+        <script src="scriptSite.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href="Home.html"><img src="image/cactusLogo.png" alt="Cactus logo" id="logoCactusHeader"></a>
+            <h3>Your Oasis in the City</h3>
+            <div id="connexionContainer">
+                <a href="connexion.html"><img src="image/logoConnexion.png" id="logoConnexion"></a>
+                <span id="connexionText">Login</span>
+            </div>
+        </header>
+
+        <nav id="nav">
+            <ul class="barreNav">
+               <li class="liBarreNav"><a href="Home.html" class="aNav">Home</a></li>
+                <li class="liBarreNav"><a href="Chambres.html" target="_blank" class="aNav">Room</a></li>
+                <li class="liBarreNav"><a href="Contact.html" target="_blank" class="aNav">Contact</a></li>
+                <li class="liBarreNav"><a href="Galerie.html" target="_blank" class="aNav">Image galery</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <h2>Cactus Hostel</h2>
+            <p id="enTete">Since 2003 in Saint-Dennis, 93200</p>
+            <h1>Welcome - Cactus Hostel</h1>
+            <p class="accroche">Experience the elegant oasis of Cactus Hostel, where every stay is a promise of comfort and exoticism at the heart of a unique hotel experience.</p>
+            <br>
+            <div class="slide-container">
+                <div class="custom-slider fade">
+                    <img class="slide-img" src="image/hotel-cactus-paris-chambre-double-deluxe-172374-1307-600-landscape.jpg" alt="Double Deluxe Room - Landscape View">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <p class="slide-text">Double Deluxe Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <img class="slide-img" src="image/hotel-cactus-paris-chambre-double-deluxe-172375-673-600-portrait.jpg" alt="Double Deluxe Room - Landscape View">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <p class="slide-text">Double Deluxe Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <img class="slide-img" src="image/hotel-cactus-paris-chambre-double-deluxe-172376-640-600-portrait.jpg" alt="Double Deluxe Room - Landscape View">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <p class="slide-text">Double Deluxe Room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <img class="slide-img" src="image/receptionHotel.jpg" alt="Double Deluxe Room - Landscape View">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <p class="slide-text">Reception room</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <img class="slide-img" src="image/cantineHotel.jpg" alt="Double Deluxe Room - Landscape View">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <p class="slide-text">canteen</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+                         
+            <p  class="paragraphe" id="sautDeLigne">Aware of the crucial issues related to climate change, we have recently undertaken significant efforts to minimize our ecological footprint. The owner has enhanced the energy efficiency of the establishment by renovating the insulation in all rooms, thereby promoting more responsible consumption.</p>
+            <p class="paragraphe">In line with our commitment to exceptional hospitality, we highlight an offering distinguished by a warm welcome and simple yet clean and comfortable rooms. We believe in the importance of creating an environment where our guests feel at home while appreciating the ecological improvements we have made to our facilities. Our dedicated team is here to provide you with a memorable experience, combining the best of comfort and sustainability. We look forward to welcoming you to our hotel, where the well-being of our guests and the planet is at the heart of our mission.</p>
+        </section>
+            
+        <section>
+            <h2 id="rooms">Our special room</h2>
+            <p id="WembanyamaTexte">Come sleep in our exclusive athlete's room which pays tribute to his exceptional exploits in the USA : Victor Wembanyama, the new NBA prodigy and the new French talent.<br> Find a jersey autographed by Victor Wembanyama, a small basketball hoop and other posters of our super star.</p>
+        
+            <div class="content-container">
+                <div class="slide-container">
+                    <div class="slider-container slider-1">
+                        <div class="slider">
+                            <img src="Wembanyama/VB.avif" alt="img1">
+                            <img src="Wembanyama/PanierBasket.jpg" alt="img2">
+                            <img src="Wembanyama/displateWembanyama.png" alt="img3">
+                            <img src="Wembanyama/VB.avif" alt="img1">
+                        </div>
+                    </div>                
+                </div>
+            
+                <ul class="listeChambre">
+                    <li>Wembanyama Posters</li>
+                    <li>Photo frame</li>
+                    <li>Autographed jersey</li>
+                    <li>Mini basketball hoop</li>
+                    <li>Double bed</li>
+                    <li>Télévision</li>
+                    <li>Private bathroom</li>
+                </ul>
+                
+            </div>
+            <div class="button-container">
+            <a href="chambres.html"><button id="BoutonReservation">Reserve Now</button></a>
+        </div>
+        </section>
+
+        <section class="map">
+            <p class="paragraphe"> Stay with us and immerse yourself in the excitement of the Stade de France at every moment! Our hotel is just about a 30 minutes walk from the stadium, and it is also easily accessible via metro line 13. Experience the sports vibe while enjoying the comfort and convenience of our establishment.</p>
+            <img id="stadeDeFrance" src="image/stadeDeFrance.jpg">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2338426948193!2d2.358714516060874!3d48.923781791062256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ebadd2263bf%3A0x70c04f7109156311!2sStade%20de%20France!5e0!3m2!1sen!2sus!4v1636888836932!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
+        </section>
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <a href="#"><img src="image/cactusLogoVer2.png" alt="" width="70px"></a>
+
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>        
+                    <a href="#">Blog</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </p>
+
+                <p class="footer-company-name">Cactus Hostel © 2023</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>142 Rue Gabriel Peri,</span> 93200 Saint-Denis</p>
+                </div>
+
+                <div>
+                    <a href="#"><i class="fa fa-phone"></i></a>
+                    <p>+33 9 01 02 03 04</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">cactusHotel@gmail.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About us</span>
+                    Established in 2003, Cactus Hostel has been providing a unique oasis in the heart of Saint-Dennis since its inception. Our mission is to offer not just accommodation but an unforgettable experience, blending comfort, sustainability, and the warmth of true hospitality.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
